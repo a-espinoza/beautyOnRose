@@ -1,5 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Arapey:400,400i);
 @import url(https://fonts.googleapis.com/css?family=Lato:400,300,700);
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
 
 
 
@@ -617,4 +618,9 @@ a:hover,
 #social2-8 .mbr-section-title,
 #social2-8 .btn-social {
   color: #232323;
+}
+
+#slider1-h H1 {
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
 }
