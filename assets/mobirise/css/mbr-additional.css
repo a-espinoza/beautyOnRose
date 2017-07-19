@@ -541,3 +541,82 @@ a:hover,
 .panel.active .panel-heading a span:after {
   background: #d901ed;
 }
+#menu2-0 .hide-buttons .nav-btn {
+  display: none !important;
+}
+#menu2-0 .navbar-caption {
+  color: #ffffff;
+}
+#menu2-0 .navbar-toggler {
+  color: #ffffff;
+}
+#menu2-0 .close-icon::before,
+#menu2-0 .close-icon::after {
+  background-color: #ffffff;
+}
+#menu2-0 .link,
+#menu2-0 .dropdown-item {
+  color: #ffffff;
+}
+#menu2-0 .link {
+  font-size: 0.85rem;
+}
+#menu2-0 .dropdown-item,
+#menu2-0 .nav-dropdown-sm .link {
+  font-size: 0.921rem;
+}
+#menu2-0 .link:hover,
+#menu2-0 .dropdown-item:hover,
+#menu2-0 .link:focus,
+#menu2-0 .dropdown-item:focus {
+  color: #fff;
+}
+#menu2-0 .link[aria-expanded="true"],
+#menu2-0 .dropdown-menu {
+  background: #cc00cc;
+}
+#menu2-0 .nav-dropdown-sm .link:focus,
+#menu2-0 .nav-dropdown-sm .link:hover,
+#menu2-0 .nav-dropdown-sm .dropdown-item:focus,
+#menu2-0 .nav-dropdown-sm .dropdown-item:hover {
+  background: #f000f0!important;
+}
+#menu2-0 .navbar,
+#menu2-0 .nav-dropdown-sm,
+#menu2-0 .nav-dropdown-sm .link[aria-expanded="true"],
+#menu2-0 .nav-dropdown-sm .dropdown-menu {
+  background: #ff00ff;
+}
+#menu2-0 .bg-color.transparent .link {
+  color: #ffffff;
+  transition: none;
+}
+#menu2-0 .navbar-toggler i,
+#menu2-0 .navbar-toggler em,
+#menu2-0 .navbar-toggler i:before,
+#menu2-0 .navbar-toggler em:before,
+#menu2-0 .navbar-toggler i:after,
+#menu2-0 .navbar-toggler em:after {
+  background: #ffffff;
+}
+#menu2-0 .navbar-toggler[aria-expanded="true"] i,
+#menu2-0 .navbar-toggler[aria-expanded="true"] em {
+  background: transparent;
+}
+#menu2-0 .bg-color.transparent.opened .link {
+  transition: color 0.2s ease-in-out;
+}
+#menu2-0 .bg-color.transparent.opened .link:hover,
+#menu2-0 .bg-color.transparent.opened .link:focus {
+  color: #fff;
+}
+#menu2-0 .link[aria-expanded="true"] {
+  color: #fff!important;
+}
+#menu2-0 .dropdown-item[aria-expanded="true"] {
+  color: #222!important;
+}
+#social2-8 .mbr-section-title,
+#social2-8 .btn-social {
+  color: #232323;
+}
