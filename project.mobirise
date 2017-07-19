@@ -19,7 +19,7 @@
       }
     },
     "versionFirst": "3.12.1",
-    "uniqCompNum": 10,
+    "uniqCompNum": 13,
     "versionPublish": "3.12.1",
     "favicon": "@PROJECT_PATH@/assets/images/1-128x109.png",
     "noImageResize": "",
@@ -55,22 +55,22 @@
               "color": "#ffffff"
             },
             ".link": {
-              "font-size": "0.85rem"
+              "font-size": "0.75rem"
             },
             ".dropdown-item, .nav-dropdown-sm .link": {
-              "font-size": "0.921rem"
+              "font-size": "0.812rem"
             },
             ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
-              "color": "#fff"
+              "color": "#222"
             },
             ".link[aria-expanded=\"true\"], .dropdown-menu": {
-              "background": "#cc00cc"
+              "background": "#ad41bb"
             },
             ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
-              "background": "#f000f0!important"
+              "background": "#b95ac6!important"
             },
             ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
-              "background": "#ff00ff"
+              "background": "#be65ca"
             },
             ".bg-color.transparent .link": {
               "color": "#ffffff",
@@ -86,12 +86,9 @@
               "transition": "color .2s ease-in-out"
             },
             ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
-              "color": "#fff"
+              "color": "#222"
             },
-            ".link[aria-expanded=\"true\"]": {
-              "color": "#fff!important"
-            },
-            ".dropdown-item[aria-expanded=\"true\"]": {
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
               "color": "#222!important"
             }
           },
@@ -99,34 +96,31 @@
           "_tags": [
             "Theme"
           ],
-          "_name": "menu2",
-          "_anchor": "menu2-0",
+          "_name": "menu1",
+          "_anchor": "menu1-c",
           "_params": {
-            "bgColor": "#ff00ff",
-            "fontSize": "0.85",
+            "bgColor": "#be65ca",
+            "fontSize": 0.75,
             "fontName": {},
             "fontColor": "#ffffff",
-            "fontHoverColor": "#fff",
-            "fontActiveColor": "#222",
+            "fontHoverColor": "#222",
             "transparent": false,
             "sticky": true,
             "logo": true
           },
-          "contacts": "<a data-app-btn=\"true\" href=\"tel:+123 (456) 7890 123\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize\" class=\"\"><span class=\"fa fa-phone mbr-iconfont mbr-iconfont-btn\"></span> +(703) 555 444</a><a data-app-btn=\"true\" href=\"mailto:sample@sample.com\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize\" class=\"text-white\"><span class=\"fa fa-envelope-o mbr-iconfont mbr-iconfont-btn\"></span>&nbsp;hi@beautyonrose.com</a>",
-          "icons": "   <a data-app-btn=\"true\" title=\"Youtube\" target=\"_blank\" href=\"index.html\" data-toolbar=\"-mbrFonts,-mbrFontSize\" class=\"text-white\"><span class=\"fa fa-facebook-square mbr-iconfont mbr-iconfont-btn\"></span></a> <a data-app-btn=\"true\" title=\"Youtube\" target=\"_blank\" href=\"index.html\" data-toolbar=\"-mbrFonts,-mbrFontSize\" class=\"text-white\"><span class=\"fa fa-instagram mbr-iconfont mbr-iconfont-btn\"></span></a> ",
           "logo": {
             "image": {
               "active": true,
               "src": "@PROJECT_PATH@/assets/images/logo-1-293x128.png",
               "height": 128,
-              "alt": "beauty on rose",
-              "link": "index.html",
-              "title": "Beauty on Rose",
+              "alt": "Mobirise",
+              "link": "https://mobirise.com",
+              "title": "",
               "linkInNewWindow": false
             }
           },
           "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\">MOBIRISE</a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#text1-6\">About us</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#content1-5\">Services</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">Schedule</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#contacts1-7\">Contact</a></li>"
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#text1-6\">About us</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#content1-5\">Services</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#slider8-4\">Schedule</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#contacts1-7\">Contact us</a></li>"
         },
         {
           "alias": "spacem/components",
