@@ -12,14 +12,14 @@
         "infoColor": "#1A5CEB",
         "warningColor": "#E0C119",
         "dangerColor": "#EB5A1A",
-        "titleFont": "Arapey",
+        "titleFont": "Lato",
         "subtitleFont": "Lato",
         "textFont": "Lato",
         "isRoundedButtons": true
       }
     },
     "versionFirst": "3.12.1",
-    "uniqCompNum": 13,
+    "uniqCompNum": 18,
     "versionPublish": "3.12.1",
     "favicon": "@PROJECT_PATH@/assets/images/1-128x109.png",
     "noImageResize": "",
@@ -111,10 +111,10 @@
           "logo": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/logo-1-293x128.png",
+              "src": "@PROJECT_PATH@/assets/images/logo-2-293x128.png",
               "height": 128,
               "alt": "Mobirise",
-              "link": "https://mobirise.com",
+              "link": "",
               "title": "",
               "linkInNewWindow": false
             }
@@ -465,7 +465,17 @@
           "title2": "<span class=\"etl-icon icon-envelope mbr-iconfont mbr-iconfont-btn\"></span>e-mail",
           "text2": "<a href=\"mailto://hi@beautyonrose.com\">hi@beautyonrose.com</a>",
           "title3": "<span class=\"etl-icon icon-phone mbr-iconfont mbr-iconfont-btn\"></span>phone",
-          "text3": "<a href=\"tel:+138 (095) 6526 538\">+(703 5555 555</a>"
+          "text3": "<a href=\"tel:+138 (095) 6526 538\">+(703 5555 555</a>",
+          "_styles": {
+            "P": {
+              "color": "#e94dff"
+            },
+            "H4": {
+              "font-family": "'Lato', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Lato:400,300,700",
+              "font-size": "13px"
+            }
+          }
         },
         {
           "media": {
@@ -544,6 +554,98 @@
             "bgColorRadio": true
           },
           "copyright": "Design and developed by <a href=\"http://a-espinoza.com\" target=\"_blank\">A.Espinoza</a>."
+        }
+      ]
+    },
+    "logos.html": {
+      "settings": {
+        "title": "Beauty on Rose Logo Proposal"
+      },
+      "components": [
+        {
+          "alias": "spacem/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "slider1",
+          "_styles": {
+            "H1": {
+              "font-family": "'Montserrat', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Montserrat:400,700",
+              "color": "#ffffff"
+            }
+          },
+          "_params": {
+            "autoplay": false,
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "timeout": "1",
+            "slides": [
+              {
+                "contentAlign": "left",
+                "active": false,
+                "image": "@PROJECT_PATH@/assets/images/header1-slide3.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=CluVGS25Kb0",
+                "overlay": true,
+                "showTitle": true,
+                "title": "welcome to your new LOGO!",
+                "showText": true,
+                "text": "In this short presentation, I would like you to follow a couple easy instructions :<br>Step 1: Open the website in a desktop or laptop!<br>Step 2: Smile in anticipation..<br>Step 3: Only click on the arrows once you are ready to advance to the next proposal!<br>Step 4: Enjoy!",
+                "showButtons": false,
+                "buttons": "<a data-app-btn=\"true\" href=\"http://mobirise.com\" class=\"btn btn-primary\" role=\"button\" data-toolbar=\"-mbrBtnMove\">SHOW ME my LOGOS :)</a>"
+              },
+              {
+                "contentAlign": "left",
+                "active": true,
+                "image": "@PROJECT_PATH@/assets/images/test-2000x1125.png",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=CluVGS25Kb0",
+                "overlay": false,
+                "showTitle": false,
+                "title": "Modern <em>Design</em>",
+                "showText": false,
+                "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos, blanditiis culpa. Beatae quos fuga qui perferendis quod, cumque vero expedita!",
+                "showButtons": false,
+                "buttons": "<a data-app-btn=\"true\" href=\"http://mobirise.com\" class=\"btn btn-primary\" role=\"button\">Purchase</a>"
+              },
+              {
+                "contentAlign": "left",
+                "active": false,
+                "image": "@PROJECT_PATH@/assets/images/header1-slide2.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=CluVGS25Kb0",
+                "overlay": true,
+                "showTitle": true,
+                "title": "Made for <em>You</em>",
+                "showText": true,
+                "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas iste, dicta aliquid asperiores natus tenetur expedita. Laborum a aliquid ratione.",
+                "showButtons": true,
+                "buttons": "<a data-app-btn=\"true\" href=\"http://mobirise.com\" class=\"btn btn-primary\" role=\"button\">Purchase</a>"
+              },
+              {
+                "contentAlign": "left",
+                "active": false,
+                "image": "@PROJECT_PATH@/assets/images/header1-slide4.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=CluVGS25Kb0",
+                "overlay": true,
+                "showTitle": true,
+                "title": "Website <em>Maker</em>",
+                "showText": true,
+                "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus optio a fuga aliquam ducimus, natus eligendi. Reprehenderit illum, et magnam.",
+                "showButtons": true,
+                "buttons": "<a data-app-btn=\"true\" href=\"http://mobirise.com\" class=\"btn btn-primary\" role=\"button\">Purchase</a>"
+              }
+            ],
+            "fullScreen": true,
+            "bgColor": "#fff",
+            "showBullets": true
+          },
+          "_anchor": "slider1-h",
+          "articleLayout": false,
+          "arrowLeft": "@PROJECT_PATH@/assets/images/arrow-left.svg",
+          "arrowRight": "@PROJECT_PATH@/assets/images/arrow-right.svg"
         }
       ]
     }
