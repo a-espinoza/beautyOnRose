@@ -6,7 +6,7 @@
       "name": "spacem",
       "title": "SpaceM",
       "styling": {
-        "primaryColor": "#aa275a",
+        "primaryColor": "#D901ED",
         "secondaryColor": "#46004C",
         "successColor": "#2BE080",
         "infoColor": "#1A5CEB",
@@ -19,15 +19,12 @@
       }
     },
     "versionFirst": "3.12.1",
-    "uniqCompNum": 20,
+    "uniqCompNum": 18,
     "versionPublish": "3.12.1",
     "favicon": "@PROJECT_PATH@/assets/images/1-128x109.png",
     "noImageResize": "",
     "scrollAnimation": "true",
-    "google-analytics": "",
-    "publishFtpPath": "public_html",
-    "publishType": "local",
-    "publishPath": "@PROJECT_PATH@"
+    "google-analytics": ""
   },
   "pages": {
     "index.html": {
@@ -67,13 +64,13 @@
               "color": "#222"
             },
             ".link[aria-expanded=\"true\"], .dropdown-menu": {
-              "background": "#811d44"
+              "background": "#ad41bb"
             },
             ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
-              "background": "#9e2453!important"
+              "background": "#b95ac6!important"
             },
             ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
-              "background": "#aa275a"
+              "background": "#be65ca"
             },
             ".bg-color.transparent .link": {
               "color": "#ffffff",
@@ -100,21 +97,21 @@
             "Theme"
           ],
           "_name": "menu1",
-          "_anchor": "menu1-i",
+          "_anchor": "menu1-c",
           "_params": {
-            "bgColor": "#aa275a",
+            "bgColor": "#be65ca",
             "fontSize": 0.75,
             "fontName": {},
             "fontColor": "#ffffff",
             "fontHoverColor": "#222",
             "transparent": false,
             "sticky": true,
-            "logo": false
+            "logo": true
           },
           "logo": {
             "image": {
               "active": true,
-              "src": "file:///Users/a-espinoza/Library/Application%20Support/Mobirise.com/Mobirise/projectData/solo-501x128.png",
+              "src": "@PROJECT_PATH@/assets/images/logo-2-293x128.png",
               "height": 128,
               "alt": "Mobirise",
               "link": "",
@@ -212,11 +209,11 @@
           "_name": "text1",
           "_anchor": "text1-6",
           "_params": {
-            "paddingTop": "1",
+            "paddingTop": 1,
             "paddingBottom": 1,
             "parallax": false,
             "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/1.jpg",
+            "bgImage": "@ADDONS_PATH@/spacem/components/_images/1.jpg",
             "bgColor": "#ffffff",
             "bgColorRadio": true,
             "bgVideo": {
@@ -237,7 +234,7 @@
             "image": {
               "class": "mbr-figure__img",
               "width": 320,
-              "src": "@THEME_PATH@/components/_images/about.jpg"
+              "src": "@ADDONS_PATH@/spacem/components/_images/about.jpg"
             },
             "video": {
               "active": true,
@@ -253,31 +250,8 @@
             "Theme"
           ],
           "_name": "content1",
-          "_anchor": "content1-5",
-          "_params": {
-            "paddingTop": 2,
-            "paddingBottom": 2,
-            "parallax": false,
-            "bgImageRadio": false,
-            "bgImage": "@ADDON_DIR@_images/1.jpg",
-            "bgColor": "#e5e5e5",
-            "bgColorRadio": true,
-            "bgVideo": {
-              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "bgVideoRadio": false,
-            "overlay": true,
-            "overlayOpacity": 0.75,
-            "overlayColor": "#151515",
-            "showSubtitle": false,
-            "showTitle": true,
-            "showText": false,
-            "columns": 4,
-            "showImages": true
-          },
           "subtitle": "Subtitle",
           "title": "<em>Our</em> Services",
-          "text": "Lorem ipsum dolor sit amet consectetur adipiscing elit quisque elementum volutpat massa ac interdum velit imperdiet vel lacinia massa viverra dolor quis congue pellentesque.",
           "media1": {
             "iconFont": {
               "class": "mbr-iconfont",
@@ -357,7 +331,14 @@
             }
           },
           "title6": "business analysis",
-          "text6": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores similique itaque possimus hic. Saepe et deleniti fugit qui, odit tenetur?"
+          "text6": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores similique itaque possimus hic. Saepe et deleniti fugit qui, odit tenetur?",
+          "_anchor": "content1-5",
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgColor": "#e5e5e5"
+          },
+          "text": "Lorem ipsum dolor sit amet consectetur adipiscing elit quisque elementum volutpat massa ac interdum velit imperdiet vel lacinia massa viverra dolor quis congue pellentesque."
         },
         {
           "_styles": {
@@ -391,7 +372,7 @@
             "image": {
               "class": "mbr-figure__img",
               "width": 320,
-              "src": "@THEME_PATH@/components/_images/about.jpg"
+              "src": "@ADDONS_PATH@/spacem/components/_images/about.jpg"
             },
             "video": {
               "active": true,
@@ -407,43 +388,7 @@
             "Theme"
           ],
           "_name": "contacts1",
-          "_styles": {
-            "P": {
-              "color": "#46004c"
-            },
-            "H4": {
-              "font-family": "'Lato', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Lato:400,300,700",
-              "font-size": "13px"
-            }
-          },
-          "_anchor": "contacts1-7",
-          "_params": {
-            "paddingTop": "1",
-            "paddingBottom": "1",
-            "parallax": false,
-            "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/1.jpg",
-            "bgColor": "#fff",
-            "bgColorRadio": true,
-            "bgVideo": {
-              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "bgVideoRadio": false,
-            "overlay": true,
-            "overlayOpacity": 0.75,
-            "overlayColor": "#151515",
-            "showTitle": true,
-            "showText": true,
-            "googleMap": {
-              "address": "Washington,dc",
-              "placeId": "ChIJW-T2Wt7Gt4kRKl2I1CJFUsI",
-              "state": "ok",
-              "stateDetails": ""
-            }
-          },
           "title": "Do you have any questions?",
-          "text": "Lorem ipsum dolor sit amet, consec tetur adip iscing elit. Curabitur feugiat feugiat and brane in bibendum ",
           "form": {
             "title": "MESSAGE",
             "action": "a_espinosa@live.com",
@@ -472,18 +417,57 @@
               }
             }
           },
-          "buttons": "<a data-app-btn=\"true\" href=\"http://mobirise.com\" class=\"btn btn-black\" type=\"submit\" role=\"button\">contact us</a>",
-          "title1": "<span class=\"etl-icon icon-map-pin mbr-iconfont mbr-iconfont-btn\"></span>address",
-          "text1": "Washingto\u001bn DC",
-          "title2": "<span class=\"etl-icon icon-envelope mbr-iconfont mbr-iconfont-btn\"></span>e-mail",
+          "text1": "Washington DC",
           "text2": "<a href=\"mailto://hi@beautyonrose.com\">hi@beautyonrose.com</a>",
+          "text3": "<a href=\"tel:+138 (095) 6526 538\">+(703 5555 555</a>",
+          "_styles": {
+            "P": {
+              "color": "#e94dff"
+            },
+            "H4": {
+              "font-family": "'Lato', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Lato:400,300,700",
+              "font-size": "13px"
+            }
+          },
+          "_anchor": "contacts1-7",
+          "_params": {
+            "paddingTop": "1",
+            "paddingBottom": "1",
+            "parallax": false,
+            "bgImageRadio": false,
+            "bgImage": "@ADDONS_PATH@/spacem/components/_images/1.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.75,
+            "overlayColor": "#151515",
+            "showCat1": true,
+            "showCat2": true,
+            "showCat3": true,
+            "showText": true,
+            "showButtons": true,
+            "googleMap": {
+              "address": "Washington,dc",
+              "placeId": "ChIJW-T2Wt7Gt4kRKl2I1CJFUsI",
+              "state": "ok",
+              "stateDetails": ""
+            }
+          },
+          "title1": "<span class=\"etl-icon icon-map-pin mbr-iconfont mbr-iconfont-btn\"></span>address",
+          "title2": "<span class=\"etl-icon icon-envelope mbr-iconfont mbr-iconfont-btn\"></span>e-mail",
           "title3": "<span class=\"etl-icon icon-phone mbr-iconfont mbr-iconfont-btn\"></span>phone",
-          "text3": "<a href=\"tel:+138 (095) 6526 538\">+(703 5555 555</a>"
+          "text": "Lorem ipsum dolor sit amet, consec tetur adip iscing elit. Curabitur feugiat feugiat and brane in bibendum ",
+          "buttons": "<a data-app-btn=\"true\" href=\"http://mobirise.com\" class=\"btn btn-black\" type=\"submit\" role=\"button\">contact us</a>"
         },
         {
           "media": {
             "image": {
-              "src": "@THEME_PATH@/components/_images/logo_white.png"
+              "src": "@ADDONS_PATH@/spacem/components/_images/logo_white.png"
             }
           },
           "adress": "198 West 21th Street, Suite 721, New York NY5109 Pacific Coast Highway, Los Angeles CA",
@@ -493,14 +477,14 @@
           "mediaNews1": {
             "image": {
               "class": "resp-img",
-              "src": "@THEME_PATH@/components/_images/foot_news_1.jpg"
+              "src": "@ADDONS_PATH@/spacem/components/_images/foot_news_1.jpg"
             }
           },
           "textNews1": "<a href=\"http://mobirise.com\">Pellentesque interdum imper diet nibh in porttitor</a><span class=\"date\">15/05/16</span>",
           "mediaNews2": {
             "image": {
               "class": "resp-img",
-              "src": "@THEME_PATH@/components/_images/foot_news_2.jpg"
+              "src": "@ADDONS_PATH@/spacem/components/_images/foot_news_2.jpg"
             }
           },
           "textNews2": "<a href=\"http://mobirise.com\">Pellentesque interdum imper diet nibh in porttitor</a><span class=\"date\">15/05/16</span>",
@@ -513,37 +497,37 @@
           "mediaInst1": {
             "image": {
               "class": "resp-img",
-              "src": "@THEME_PATH@/components/_images/inst_1.jpg"
+              "src": "@ADDONS_PATH@/spacem/components/_images/inst_1.jpg"
             }
           },
           "mediaInst2": {
             "image": {
               "class": "resp-img",
-              "src": "@THEME_PATH@/components/_images/inst_2.jpg"
+              "src": "@ADDONS_PATH@/spacem/components/_images/inst_2.jpg"
             }
           },
           "mediaInst3": {
             "image": {
               "class": "resp-img",
-              "src": "@THEME_PATH@/components/_images/inst_3.jpg"
+              "src": "@ADDONS_PATH@/spacem/components/_images/inst_3.jpg"
             }
           },
           "mediaInst4": {
             "image": {
               "class": "resp-img",
-              "src": "@THEME_PATH@/components/_images/inst_4.jpg"
+              "src": "@ADDONS_PATH@/spacem/components/_images/inst_4.jpg"
             }
           },
           "mediaInst5": {
             "image": {
               "class": "resp-img",
-              "src": "@THEME_PATH@/components/_images/inst_5.jpg"
+              "src": "@ADDONS_PATH@/spacem/components/_images/inst_5.jpg"
             }
           },
           "mediaInst6": {
             "image": {
               "class": "resp-img",
-              "src": "@THEME_PATH@/components/_images/inst_6.jpg"
+              "src": "@ADDONS_PATH@/spacem/components/_images/inst_6.jpg"
             }
           },
           "alias": "spacem/components",
@@ -551,17 +535,20 @@
             "Theme"
           ],
           "_name": "footer2",
-          "_anchor": "footer2-j",
+          "copyright": "Design and developed by <a href=\"http://a-espinoza.com\" target=\"_blank\">A.Espinoza</a>.",
+          "_anchor": "footer2-9",
           "_params": {
-            "bgColor": "#212121",
-            "bgColorRadio": true
-          },
-          "copyright": "2017 All rights reserved Beauty on Rose. Developed by <a href=\"http://a-espinoza.com\" target=\"_blank\">Andres Espinoza</a>,",
-          "_customHTML": "<section class=\"mbr-section--bg-adapted mbr-section--relative mbr-section mbr-section--no-padding\" style=\"background-color: rgb(33, 33, 33);\">\n        \n        <footer class=\"footer\">\n        <div class=\"content-wide\">\n        <div class=\"container-wide container\">\n            <div class=\"row\">\n        \n                <div class=\"copyright nopadding\">\n                    <span class=\"mbr-editable-content\" code-editable-id=\"82\">2017 All rights reserved Beauty on Rose. Developed by <a href=\"http://a-espinoza.com\" target=\"_blank\">Andres Espinoza</a>,</span>\n                </div>\n            </div>\n\n        </div>\n    </div>\n    </footer>\n</section>",
-          "_PHPplaceholders": [],
-          "_JSplaceholders": [],
-          "_customCSS": "",
-          "_customTemplate": true
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@ADDON_DIR@_images/jumbotron.jpg",
+            "bgColor": "#757575",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#444444"
+          }
         }
       ]
     },

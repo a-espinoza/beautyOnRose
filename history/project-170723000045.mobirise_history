@@ -6,7 +6,7 @@
       "name": "spacem",
       "title": "SpaceM",
       "styling": {
-        "primaryColor": "#aa275a",
+        "primaryColor": "#D901ED",
         "secondaryColor": "#46004C",
         "successColor": "#2BE080",
         "infoColor": "#1A5CEB",
@@ -19,15 +19,12 @@
       }
     },
     "versionFirst": "3.12.1",
-    "uniqCompNum": 20,
+    "uniqCompNum": 18,
     "versionPublish": "3.12.1",
     "favicon": "@PROJECT_PATH@/assets/images/1-128x109.png",
     "noImageResize": "",
     "scrollAnimation": "true",
-    "google-analytics": "",
-    "publishFtpPath": "public_html",
-    "publishType": "local",
-    "publishPath": "@PROJECT_PATH@"
+    "google-analytics": ""
   },
   "pages": {
     "index.html": {
@@ -67,13 +64,13 @@
               "color": "#222"
             },
             ".link[aria-expanded=\"true\"], .dropdown-menu": {
-              "background": "#811d44"
+              "background": "#ad41bb"
             },
             ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
-              "background": "#9e2453!important"
+              "background": "#b95ac6!important"
             },
             ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
-              "background": "#aa275a"
+              "background": "#be65ca"
             },
             ".bg-color.transparent .link": {
               "color": "#ffffff",
@@ -100,21 +97,21 @@
             "Theme"
           ],
           "_name": "menu1",
-          "_anchor": "menu1-i",
+          "_anchor": "menu1-c",
           "_params": {
-            "bgColor": "#aa275a",
+            "bgColor": "#be65ca",
             "fontSize": 0.75,
             "fontName": {},
             "fontColor": "#ffffff",
             "fontHoverColor": "#222",
             "transparent": false,
             "sticky": true,
-            "logo": false
+            "logo": true
           },
           "logo": {
             "image": {
               "active": true,
-              "src": "file:///Users/a-espinoza/Library/Application%20Support/Mobirise.com/Mobirise/projectData/solo-501x128.png",
+              "src": "@PROJECT_PATH@/assets/images/logo-2-293x128.png",
               "height": 128,
               "alt": "Mobirise",
               "link": "",
@@ -212,7 +209,7 @@
           "_name": "text1",
           "_anchor": "text1-6",
           "_params": {
-            "paddingTop": "1",
+            "paddingTop": 1,
             "paddingBottom": 1,
             "parallax": false,
             "bgImageRadio": false,
@@ -259,7 +256,7 @@
             "paddingBottom": 2,
             "parallax": false,
             "bgImageRadio": false,
-            "bgImage": "@ADDON_DIR@_images/1.jpg",
+            "bgImage": "@THEME_PATH@/components/_images/1.jpg",
             "bgColor": "#e5e5e5",
             "bgColorRadio": true,
             "bgVideo": {
@@ -407,16 +404,6 @@
             "Theme"
           ],
           "_name": "contacts1",
-          "_styles": {
-            "P": {
-              "color": "#46004c"
-            },
-            "H4": {
-              "font-family": "'Lato', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Lato:400,300,700",
-              "font-size": "13px"
-            }
-          },
           "_anchor": "contacts1-7",
           "_params": {
             "paddingTop": "1",
@@ -474,11 +461,21 @@
           },
           "buttons": "<a data-app-btn=\"true\" href=\"http://mobirise.com\" class=\"btn btn-black\" type=\"submit\" role=\"button\">contact us</a>",
           "title1": "<span class=\"etl-icon icon-map-pin mbr-iconfont mbr-iconfont-btn\"></span>address",
-          "text1": "Washingto\u001bn DC",
+          "text1": "Washington DC",
           "title2": "<span class=\"etl-icon icon-envelope mbr-iconfont mbr-iconfont-btn\"></span>e-mail",
           "text2": "<a href=\"mailto://hi@beautyonrose.com\">hi@beautyonrose.com</a>",
           "title3": "<span class=\"etl-icon icon-phone mbr-iconfont mbr-iconfont-btn\"></span>phone",
-          "text3": "<a href=\"tel:+138 (095) 6526 538\">+(703 5555 555</a>"
+          "text3": "<a href=\"tel:+138 (095) 6526 538\">+(703 5555 555</a>",
+          "_styles": {
+            "P": {
+              "color": "#e94dff"
+            },
+            "H4": {
+              "font-family": "'Lato', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Lato:400,300,700",
+              "font-size": "13px"
+            }
+          }
         },
         {
           "media": {
@@ -551,17 +548,12 @@
             "Theme"
           ],
           "_name": "footer2",
-          "_anchor": "footer2-j",
+          "_anchor": "footer2-9",
           "_params": {
-            "bgColor": "#212121",
+            "bgColor": "#757575",
             "bgColorRadio": true
           },
-          "copyright": "2017 All rights reserved Beauty on Rose. Developed by <a href=\"http://a-espinoza.com\" target=\"_blank\">Andres Espinoza</a>,",
-          "_customHTML": "<section class=\"mbr-section--bg-adapted mbr-section--relative mbr-section mbr-section--no-padding\" style=\"background-color: rgb(33, 33, 33);\">\n        \n        <footer class=\"footer\">\n        <div class=\"content-wide\">\n        <div class=\"container-wide container\">\n            <div class=\"row\">\n        \n                <div class=\"copyright nopadding\">\n                    <span class=\"mbr-editable-content\" code-editable-id=\"82\">2017 All rights reserved Beauty on Rose. Developed by <a href=\"http://a-espinoza.com\" target=\"_blank\">Andres Espinoza</a>,</span>\n                </div>\n            </div>\n\n        </div>\n    </div>\n    </footer>\n</section>",
-          "_PHPplaceholders": [],
-          "_JSplaceholders": [],
-          "_customCSS": "",
-          "_customTemplate": true
+          "copyright": "Design and developed by <a href=\"http://a-espinoza.com\" target=\"_blank\">A.Espinoza</a>."
         }
       ]
     },
