@@ -7,7 +7,7 @@
       "title": "SpaceM",
       "styling": {
         "primaryColor": "#aa275a",
-        "secondaryColor": "#46004C",
+        "secondaryColor": "#e9a7c1",
         "successColor": "#2BE080",
         "infoColor": "#1A5CEB",
         "warningColor": "#E0C119",
@@ -16,24 +16,22 @@
         "subtitleFont": "Lato",
         "textFont": "Lato",
         "isRoundedButtons": true
-      }
+      },
+      "additionalSetColors": []
     },
     "versionFirst": "3.12.1",
-    "uniqCompNum": 20,
+    "uniqCompNum": 37,
     "versionPublish": "3.12.1",
     "favicon": "@PROJECT_PATH@/assets/images/1-128x109.png",
     "noImageResize": "",
     "scrollAnimation": "true",
-    "google-analytics": "",
-    "publishFtpPath": "public_html",
-    "publishType": "local",
-    "publishPath": "@PROJECT_PATH@"
+    "google-analytics": ""
   },
   "pages": {
     "index.html": {
       "settings": {
         "main": true,
-        "title": "",
+        "title": "Beauty on Rosé",
         "meta_descr": "",
         "header_custom": "",
         "footer_custom": "",
@@ -41,167 +39,45 @@
       },
       "components": [
         {
-          "_styles": {
-            ".hide-buttons .nav-btn": {
-              "display": "none !important"
-            },
-            ".navbar-caption": {
-              "color": "#ffffff"
-            },
-            ".navbar-toggler": {
-              "color": "#ffffff"
-            },
-            ".close-icon::before, .close-icon::after": {
-              "background-color": "#ffffff"
-            },
-            ".link, .dropdown-item": {
-              "color": "#ffffff"
-            },
-            ".link": {
-              "font-size": "0.75rem"
-            },
-            ".dropdown-item, .nav-dropdown-sm .link": {
-              "font-size": "0.812rem"
-            },
-            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
-              "color": "#222"
-            },
-            ".link[aria-expanded=\"true\"], .dropdown-menu": {
-              "background": "#811d44"
-            },
-            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
-              "background": "#9e2453!important"
-            },
-            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
-              "background": "#aa275a"
-            },
-            ".bg-color.transparent .link": {
-              "color": "#ffffff",
-              "transition": "none"
-            },
-            ".navbar-toggler i, .navbar-toggler em, .navbar-toggler i:before, .navbar-toggler em:before, .navbar-toggler i:after, .navbar-toggler em:after": {
-              "background": "#ffffff"
-            },
-            ".navbar-toggler[aria-expanded=\"true\"] i, .navbar-toggler[aria-expanded=\"true\"] em": {
-              "background": "transparent"
-            },
-            ".bg-color.transparent.opened .link": {
-              "transition": "color .2s ease-in-out"
-            },
-            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
-              "color": "#222"
-            },
-            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
-              "color": "#222!important"
-            }
-          },
           "alias": "spacem/components",
           "_tags": [
             "Theme"
           ],
-          "_name": "menu1",
-          "_anchor": "menu1-i",
-          "_params": {
-            "bgColor": "#aa275a",
-            "fontSize": 0.75,
-            "fontName": {},
-            "fontColor": "#ffffff",
-            "fontHoverColor": "#222",
-            "transparent": false,
-            "sticky": true,
-            "logo": false
-          },
-          "logo": {
-            "image": {
-              "active": true,
-              "src": "file:///Users/a-espinoza/Library/Application%20Support/Mobirise.com/Mobirise/projectData/solo-501x128.png",
-              "height": 128,
-              "alt": "Mobirise",
-              "link": "",
-              "title": "",
-              "linkInNewWindow": false
-            }
-          },
-          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\">MOBIRISE</a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#text1-6\">About us</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#content1-5\">Services</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#slider8-4\">Schedule</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#contacts1-7\">Contact us</a></li>"
-        },
-        {
-          "alias": "spacem/components",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "slider8",
+          "_name": "slider2",
           "_params": {
             "autoplay": true,
+            "fullScreen": true,
             "paddingTop": 3,
             "paddingBottom": 3,
-            "timeout": "3",
+            "showBullets": false,
+            "bgColor": "#fff",
+            "timeout": 5,
             "slides": [
               {
                 "contentAlign": "left",
-                "active": false,
-                "image": "@PROJECT_PATH@/assets/images/4-2000x1199.jpg",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=CluVGS25Kb0",
-                "overlay": true,
-                "showTitle": true,
-                "title": "Mini Blow Dry",
-                "showText": true,
-                "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat corporis, illo omnis quos earum delectus, sunt quasi accusantium doloremque eveniet, eaque laboriosam quo eos temporibus!",
-                "showButtons": true,
-                "buttons": "<a data-app-btn=\"true\" href=\"index.html#content1-5\" class=\"btn btn-primary\" role=\"button\" data-toolbar=\"-mbrBtnMove\">Find Out More</a>"
-              },
-              {
-                "contentAlign": "left",
-                "active": false,
-                "image": "@PROJECT_PATH@/assets/images/3-2000x933.jpg",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=CluVGS25Kb0",
-                "overlay": true,
-                "showTitle": true,
-                "title": "Scalp Massage",
-                "showText": true,
-                "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab earum iure, repudiandae nobis ullam incidunt dicta molestiae libero, vel impedit doloribus dolorem ratione alias fugit.",
-                "showButtons": true,
-                "buttons": "<a data-app-btn=\"true\" href=\"index.html#content1-5\" class=\"btn btn-primary\" role=\"button\" data-toolbar=\"-mbrBtnMove\">Find Out more</a>"
-              },
-              {
-                "contentAlign": "left",
-                "active": false,
+                "active": true,
                 "image": "@PROJECT_PATH@/assets/images/1-2000x1330.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=CluVGS25Kb0",
                 "overlay": true,
-                "showTitle": true,
-                "title": "SHAMPOO &amp; CUT",
-                "showText": true,
-                "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita dignissimos explicabo non dolor nobis, consectetur officiis optio quibusdam, repellendus harum unde sed saepe odit, quisquam.",
-                "showButtons": true,
-                "buttons": "<a data-app-btn=\"true\" href=\"index.html#content1-5\" class=\"btn btn-primary\" role=\"button\" data-toolbar=\"-mbrBtnMove\">Find out more</a>"
-              },
-              {
-                "contentAlign": "left",
-                "active": true,
-                "image": "@PROJECT_PATH@/assets/images/2-2000x1333.jpg",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=CluVGS25Kb0",
-                "overlay": true,
-                "showTitle": true,
-                "title": "SHAMPOO &amp; CUT",
-                "showText": true,
-                "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita dignissimos explicabo non dolor nobis, consectetur officiis optio quibusdam, repellendus harum unde sed saepe odit, quisquam.",
-                "showButtons": true,
-                "buttons": "<a data-app-btn=\"true\" href=\"index.html#content1-5\" class=\"btn btn-primary\" role=\"button\" data-toolbar=\"-mbrBtnMove\">Find out more</a>"
+                "showTitle": false,
+                "title": "<em>SpaceM</em> Theme",
+                "showText": false,
+                "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur, nesciunt vitae cum tempore, rem repudiandae adipisci libero ratione illum! Veniam placeat autem corporis sapiente doloribus.",
+                "showButtons": false,
+                "buttons": "<a data-app-btn=\"true\" href=\"http://mobirise.com\" class=\"btn btn-primary\" role=\"button\">Purchase</a>"
               }
-            ],
-            "fullScreen": true,
-            "bgColor": "#fff",
-            "showBullets": true
+            ]
           },
-          "_anchor": "slider8-4",
           "articleLayout": false,
           "arrowLeft": "@PROJECT_PATH@/assets/images/arrow-left.svg",
-          "arrowRight": "@PROJECT_PATH@/assets/images/arrow-right.svg"
+          "arrowRight": "@PROJECT_PATH@/assets/images/arrow-right.svg",
+          "_customHTML": "<section class=\"mbr-slider mbr-section mbr-section__container carousel slide slider2 mbr-section-nopadding mbr-after-navbar\" data-ride=\"carousel\" data-keyboard=\"false\" data-wrap=\"true\" data-interval=\"5000\">\n    <div>\n        <div>\n            <div>\n                \n                <div class=\"carousel-inner\" role=\"listbox\">\n                    <div class=\"mbr-section mbr-section-hero carousel-item dark center mbr-section-full active\" data-bg-video-slide=\"false\" style=\"background-image: url(@PROJECT_PATH@/assets/images/1-2000x1330.jpg);\">\n                        <div class=\"mbr-table-cell\">\n                            <div class=\"mbr-overlay\"></div>\n                            <div class=\"container-slide container\">\n                                \n                                <div class=\"row\">\n                                    <div class=\"col-md-offset-1 col-md-9 vertical-middle\">\n                                        \n                                        \n\n                                        \n                                    </div>\n                                </div>\n                            </div>\n                        </div>\n                    </div>\n                </div>\n\n                <figure class=\"swiper-arrow-left swiper-arrow type-1\" role=\"button\" data-slide=\"prev\" href=\"#slider2-x\">\n                    <img alt=\"\" src=\"@PROJECT_PATH@/assets/images/arrow-left.svg\">\n                    <div class=\"mbr-slider-slide\"></div>\n                </figure>\n\n                 <figure class=\"swiper-arrow-right swiper-arrow type-1\" role=\"button\" data-slide=\"next\" href=\"#slider2-x\">\n                    <img alt=\"\" src=\"@PROJECT_PATH@/assets/images/arrow-right.svg\">\n                    <div class=\"mbr-slider-slide\"></div>\n                </figure>\n\n            </div>\n        </div>\n    </div>\n</section>",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [],
+          "_customCSS": "",
+          "_customTemplate": true,
+          "_anchor": "slider2-x"
         },
         {
           "buttons": "<a data-app-btn=\"true\" href=\"http://mobirise.com\" class=\"btn btn-primary\" role=\"button\">download now</a>",
@@ -213,54 +89,45 @@
           "_anchor": "text1-6",
           "_params": {
             "paddingTop": "1",
-            "paddingBottom": 1,
+            "paddingBottom": "1",
             "parallax": false,
-            "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/1.jpg",
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/4-2000x1199.jpg",
             "bgColor": "#ffffff",
-            "bgColorRadio": true,
+            "bgColorRadio": false,
             "bgVideo": {
               "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
             "bgVideoRadio": false,
             "overlay": true,
-            "overlayOpacity": 0.5,
-            "overlayColor": "#151515",
+            "overlayOpacity": "0.9",
+            "overlayColor": "#ffffff",
             "showTitle": true,
             "showText": true
           },
           "title": "<i style=\"font-weight: normal;\">About</i>&nbsp;Us",
-          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium eaque, nesciunt corporis atque eius vero doloremque, dolor voluptas ut voluptates fugit excepturi consequuntur recusandae magni, a nulla architecto quo repudiandae eum molestiae quidem libero odit sint. Recusandae maxime ut illo accusantium aut voluptatibus et quod dicta rerum praesentium alias aspernatur neque magnam reiciendis adipisci nesciunt in debitis maiores iure, mollitia impedit repudiandae quis. Blanditiis laborum explicabo asperiores sint quidem ex ipsam libero, deserunt pariatur eius expedita neque at aliquid voluptate esse unde molestias! Possimus id fuga nostrum dolore quo dolores, eos voluptatem, repellat nulla eligendi facilis deleniti, inventore quae officia."
+          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium eaque, nesciunt corporis atque eius vero doloremque, dolor voluptas ut voluptates fugit excepturi consequuntur recusandae magni, a nulla architecto quo repudiandae eum molestiae quidem libero odit sint. Recusandae maxime ut illo accusantium aut voluptatibus et quod dicta rerum praesentium alias aspernatur neque magnam reiciendis adipisci nesciunt in debitis maiores iure, mollitia impedit repudiandae quis. Blanditiis laborum explicabo asperiores sint quidem ex ipsam libero, deserunt pariatur eius expedita neque at aliquid voluptate esse unde molestias! Possimus id fuga nostrum dolore quo dolores, eos voluptatem, repellat nulla eligendi facilis deleniti, inventore quae officia.\u001b"
         },
         {
-          "media": {
-            "image": {
-              "class": "mbr-figure__img",
-              "width": 320,
-              "src": "@THEME_PATH@/components/_images/about.jpg"
-            },
-            "video": {
-              "active": true,
-              "src": "https://www.youtube.com/watch?v=CluVGS25Kb0",
-              "class": "mbr-figure__img",
-              "aspectratio": "16:9",
-              "autoplay": false,
-              "loop": false
-            }
-          },
           "alias": "spacem/components",
           "_tags": [
             "Theme"
           ],
-          "_name": "content1",
-          "_anchor": "content1-5",
+          "_name": "title4",
+          "_styles": {
+            "SPAN": {
+              "color": "#ffffff",
+              "text-align": "center"
+            }
+          },
+          "_anchor": "title4-t",
           "_params": {
-            "paddingTop": 2,
-            "paddingBottom": 2,
+            "paddingTop": "1",
+            "paddingBottom": "0",
             "parallax": false,
             "bgImageRadio": false,
-            "bgImage": "@ADDON_DIR@_images/1.jpg",
-            "bgColor": "#e5e5e5",
+            "bgImage": "@THEME_PATH@/components/_images/1.jpg",
+            "bgColor": "#aa275a",
             "bgColorRadio": true,
             "bgVideo": {
               "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
@@ -271,93 +138,95 @@
             "overlayColor": "#151515",
             "showSubtitle": false,
             "showTitle": true,
+            "showSeparator": true,
             "showText": false,
-            "columns": 4,
-            "showImages": true
+            "showButtons": false
           },
           "subtitle": "Subtitle",
-          "title": "<em>Our</em> Services",
-          "text": "Lorem ipsum dolor sit amet consectetur adipiscing elit quisque elementum volutpat massa ac interdum velit imperdiet vel lacinia massa viverra dolor quis congue pellentesque.",
-          "media1": {
-            "iconFont": {
-              "class": "mbr-iconfont",
-              "linkInNewWindow": false,
-              "name": "hairdryer",
-              "family": "icon54",
-              "active": true,
-              "link": "",
-              "size": "",
-              "newWindow": false
+          "title": "<span style=\"font-weight: normal;\"><i>Our Services</i></span>",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione quis quidem laboriosam, enim rem nobis ab laudantium. Aliquam, ipsum, impedit accusantium ex cum facilis ut tempora vero nesciunt mollitia ullam, quisquam quia cupiditate esse repudiandae. Vero nisi velit sint minima et adipisci culpa iusto ea obcaecati! Voluptatibus consectetur nulla, asperiores.",
+          "buttons": "<a data-app-btn=\"true\" href=\"http://mobirise.com\" class=\"btn btn-black\" role=\"button\">learn more</a>"
+        },
+        {
+          "title": "FAQ",
+          "text": "Suspendisse gravida tristique ante vel pretium. Curabitur pellente sque non urna in euismod. Pellentesque vestibulum, enim a accumsan convallis, enim sem iaculis sem",
+          "category1": "Aliquam erat volutpat",
+          "category2": "Phasellus non ullamcorper",
+          "category3": "Curabitur faucibus viverra",
+          "category4": "Fusce mattis iaculis",
+          "title1": "<a role=\"button\" class=\"collapsed\" data-toggle=\"collapse\" data-parent=\"#accordion\" data-core=\"\" href=\"#collapseOne\" aria-expanded=\"false\" aria-controls=\"collapseOne\"><span class=\"sign\"></span>This is a accordion Title 1</a>",
+          "title2": "well quality management",
+          "title3": "cooperative work",
+          "title4": "brainstorming",
+          "alias": "spacem/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "accordion1",
+          "_styles": {
+            "P": {
+              "text-align": "left"
             }
           },
-          "title1": "Blow Dry",
-          "text1": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat dolores ea rem dolor. Mollitia, ea. Blanditiis provident quia enim quaerat.",
-          "media2": {
-            "iconFont": {
-              "class": "mbr-iconfont",
-              "linkInNewWindow": false,
-              "name": "scissors",
-              "family": "et-line",
-              "active": true,
-              "link": "",
-              "size": 0,
-              "newWindow": false
-            }
+          "_anchor": "accordion1-r",
+          "_params": {
+            "paddingTop": "0",
+            "paddingBottom": 1,
+            "showTitle": true,
+            "showText": true,
+            "tabsLeft": "3",
+            "tabsCenter": "1",
+            "tabsRight": "2",
+            "parallax": false,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/1.jpg",
+            "bgColor": "#f1f1f1",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.75,
+            "overlayColor": "#151515",
+            "columns": "3"
           },
-          "title2": "Hair Cuts",
-          "text2": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt accusantium tenetur tempora asperiores expedita ab a fugit laudantium, pariatur dignissimos.",
-          "media3": {
-            "iconFont": {
-              "class": "mbr-iconfont",
-              "linkInNewWindow": false,
-              "name": "smile-face",
-              "family": "MobiriseIcons",
-              "active": true,
-              "link": "",
-              "size": "",
-              "newWindow": false
-            }
-          },
-          "title3": "Scalp Massage",
-          "text3": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam, rerum, architecto? Perspiciatis obcaecati voluptas ratione cum, dolorem maxime quidem cumque.",
-          "media4": {
-            "iconFont": {
-              "class": "mbr-iconfont",
-              "linkInNewWindow": false,
-              "name": "profile-female",
-              "family": "et-line",
-              "active": true,
-              "link": "",
-              "size": 0,
-              "newWindow": false
-            }
-          },
-          "title4": "Color Application",
-          "text4": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut, cupiditate, debitis! Laborum maiores autem totam aliquid nemo beatae possimus rem?",
-          "media5": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont",
-              "name": "lightbulb",
-              "link": "https://mobirise.com",
-              "size": 0,
-              "family": "et-line"
-            }
-          },
-          "title5": "innovation ideas",
-          "text5": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus saepe illum, ipsa voluptas animi laborum? Veniam delectus totam, voluptatem maxime!",
-          "media6": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont",
-              "name": "presentation",
-              "link": "https://mobirise.com",
-              "size": 0,
-              "family": "et-line"
-            }
-          },
-          "title6": "business analysis",
-          "text6": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores similique itaque possimus hic. Saepe et deleniti fugit qui, odit tenetur?"
+          "titleL1": "<a data-toggle=\"collapse\" data-parent=\"#accordionLeft\" href=\"#collapseOne\" aria-expanded=\"true\" aria-controls=\"collapseOne\" class=\"text-primary\">Hair Cocktail Menu:<span></span></a>",
+          "textL1": "<p>Shanghái Rose´ (Straight Hair Up) perfect for a professional environment or to add a sweet and simple style into a stressful morning routine.</p><p>Blushing Rose Mimosa (Straight Hair Up with Volume) sleek&amp; polish with a little bit of volume to beautifully frame your day while remaining gorgeous.</p><p>Rose´ Sangria (Smooth&amp; Tresses Boho Waves) Live it up with a sexy boho waves for days.  This awesome style feels soft and weightless.</p><p>Rose´Town Madness (Tons of Volume) Stand taller with tons of volume of loose curls. This style is filled with volume and air.</p><p>Rose´Beach (Enjoy the tropical party everyday with effortless beach waves)</p>",
+          "titleL2": "<a data-toggle=\"collapse\" data-parent=\"#accordionLeft\" href=\"#collapseTwo\" aria-expanded=\"false\" aria-controls=\"collapseTwo\" class=\"text-primary\">RoseUp (Bun Bun Rose)<br><span></span></a>",
+          "textL2": "<p>A mix of classic and elegant with a low messy bun, Alto bun or sweep hair into a high/low ponytail and let pieces fall out for the risk-takers.&nbsp;</p>",
+          "titleL3": "<a data-toggle=\"collapse\" data-parent=\"#accordionLeft\" href=\"#collapseThree\" aria-expanded=\"false\" aria-controls=\"collapseThree\" class=\"text-primary\">Cotton Candy (10 and under)<br><span></span></a>",
+          "textL3": "<p>Lorem ipsum dolor sit amet, consec tetur adipiscing and brane in bibendum</p>",
+          "titleL4": "<a data-toggle=\"collapse\" data-parent=\"#accordionLeft\" href=\"#collapseFour\" aria-expanded=\"false\" aria-controls=\"collapseFour\">Collapsible Group Item #4<span></span></a>",
+          "textL4": "<p>Lorem ipsum dolor sit amet, consec tetur adipiscing and brane in bibendum</p>",
+          "titleL5": "<a data-toggle=\"collapse\" data-parent=\"#accordionLeft\" href=\"#collapseFive\" aria-expanded=\"false\" aria-controls=\"collapseFive\">Collapsible Group Item #5<span></span></a>",
+          "textL5": "<p>Lorem ipsum dolor sit amet, consec tetur adipiscing and brane in bibendum</p>",
+          "titleL6": "<a data-toggle=\"collapse\" data-parent=\"#accordionLeft\" href=\"#collapseSix\" aria-expanded=\"false\" aria-controls=\"collapseSix\">Collapsible Group Item #6<span></span></a>",
+          "textL6": "<p>Lorem ipsum dolor sit amet, consec tetur adipiscing and brane in bibendum</p>",
+          "titleC1": "<a data-toggle=\"collapse\" data-parent=\"#accordionCenter\" href=\"#collapseOne\" aria-expanded=\"true\" aria-controls=\"collapseOne\" class=\"text-primary\">Seven Roses (color):<br><span></span></a>",
+          "textC1": "<p>Single Process  $70+</p><p>Roots Tough up $70+</p><p>Ombre  $135+</p><p>Toner   $40+</p><p>Full highlights 125+</p><p>Multi-dimensional  14+</p>",
+          "titleC2": "<a data-toggle=\"collapse\" data-parent=\"#accordionCenter\" href=\"#collapseTwo\" aria-expanded=\"false\" aria-controls=\"collapseTwo\">Collapsible Group Item #2<span></span></a>",
+          "textC2": "<p>Lorem ipsum dolor sit amet, consec tetur adipiscing and brane in bibendum</p>",
+          "titleC3": "<a data-toggle=\"collapse\" data-parent=\"#accordionCenter\" href=\"#collapseThree\" aria-expanded=\"false\" aria-controls=\"collapseThree\">Collapsible Group Item #3<span></span></a>",
+          "textC3": "<p>Lorem ipsum dolor sit amet, consec tetur adipiscing and brane in bibendum</p>",
+          "titleC4": "<a data-toggle=\"collapse\" data-parent=\"#accordionCenter\" href=\"#collapseFour\" aria-expanded=\"false\" aria-controls=\"collapseFour\">Collapsible Group Item #4<span></span></a>",
+          "textC4": "<p>Lorem ipsum dolor sit amet, consec tetur adipiscing and brane in bibendum</p>",
+          "titleC5": "<a data-toggle=\"collapse\" data-parent=\"#accordionCenter\" href=\"#collapseFive\" aria-expanded=\"false\" aria-controls=\"collapseFive\">Collapsible Group Item #5<span></span></a>",
+          "textC5": "<p>Lorem ipsum dolor sit amet, consec tetur adipiscing and brane in bibendum</p>",
+          "titleC6": "<a data-toggle=\"collapse\" data-parent=\"#accordionCenter\" href=\"#collapseSix\" aria-expanded=\"false\" aria-controls=\"collapseSix\">Collapsible Group Item #6<span></span></a>",
+          "textC6": "<p>Lorem ipsum dolor sit amet, consec tetur adipiscing and brane in bibendum</p>",
+          "titleR1": "<a data-toggle=\"collapse\" data-parent=\"#accordionLeft\" href=\"#collapseOne\" aria-expanded=\"true\" aria-controls=\"collapseOne\" class=\"text-primary\">Rose Dreamers (Haircut):<br><span></span></a>",
+          "textR1": "<p>Women   $60+</p><p>Men         $35+</p>",
+          "titleR2": "<a data-toggle=\"collapse\" data-parent=\"#accordionLeft\" href=\"#collapseTwo\" aria-expanded=\"false\" aria-controls=\"collapseTwo\">Roses In Full Bloom<br><span></span></a>",
+          "textR2": "<p>Hair Mask &amp; hydrating treatment</p>",
+          "titleR3": "<a data-toggle=\"collapse\" data-parent=\"#accordionLeft\" href=\"#collapseThree\" aria-expanded=\"false\" aria-controls=\"collapseThree\">Collapsible Group Item #3<span></span></a>",
+          "textR3": "<p>Lorem ipsum dolor sit amet, consec tetur adipiscing and brane in bibendum</p>",
+          "titleR4": "<a data-toggle=\"collapse\" data-parent=\"#accordionLeft\" href=\"#collapseFour\" aria-expanded=\"false\" aria-controls=\"collapseFour\">Collapsible Group Item #4<span></span></a>",
+          "textR4": "<p>Lorem ipsum dolor sit amet, consec tetur adipiscing and brane in bibendum</p>",
+          "titleR5": "<a data-toggle=\"collapse\" data-parent=\"#accordionLeft\" href=\"#collapseFive\" aria-expanded=\"false\" aria-controls=\"collapseFive\">Collapsible Group Item #5<span></span></a>",
+          "textR5": "<p>Lorem ipsum dolor sit amet, consec tetur adipiscing and brane in bibendum</p>",
+          "titleR6": "<a data-toggle=\"collapse\" data-parent=\"#accordionLeft\" href=\"#collapseSix\" aria-expanded=\"false\" aria-controls=\"collapseSix\">Collapsible Group Item #6<span></span></a>",
+          "textR6": "<p>Lorem ipsum dolor sit amet, consec tetur adipiscing and brane in bibendum</p>"
         },
         {
           "_styles": {
@@ -407,20 +276,10 @@
             "Theme"
           ],
           "_name": "contacts1",
-          "_styles": {
-            "P": {
-              "color": "#46004c"
-            },
-            "H4": {
-              "font-family": "'Lato', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Lato:400,300,700",
-              "font-size": "13px"
-            }
-          },
-          "_anchor": "contacts1-7",
+          "_anchor": "contacts1-v",
           "_params": {
-            "paddingTop": "1",
-            "paddingBottom": "1",
+            "paddingTop": 2,
+            "paddingBottom": 2,
             "parallax": false,
             "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/1.jpg",
@@ -436,8 +295,8 @@
             "showTitle": true,
             "showText": true,
             "googleMap": {
-              "address": "Washington,dc",
-              "placeId": "ChIJW-T2Wt7Gt4kRKl2I1CJFUsI",
+              "address": "7111 Democracy Blvd, Bethesda, MD 20817",
+              "placeId": "ChIJt9BAp3_Mt4kRweH8HEkK04Y",
               "state": "ok",
               "stateDetails": ""
             }
@@ -472,13 +331,13 @@
               }
             }
           },
-          "buttons": "<a data-app-btn=\"true\" href=\"http://mobirise.com\" class=\"btn btn-black\" type=\"submit\" role=\"button\">contact us</a>",
+          "buttons": "<a data-app-btn=\"true\" href=\"http://mobirise.com\" class=\"btn btn-black\" type=\"submit\" role=\"button\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove\">contact us</a>",
           "title1": "<span class=\"etl-icon icon-map-pin mbr-iconfont mbr-iconfont-btn\"></span>address",
-          "text1": "Washingto\u001bn DC",
+          "text1": "<a href=\"https://www.google.com/maps/dir/''/nordstrom+montgomery+mall/data=!4m5!4m4!1m0!1m2!1m1!1s0x89b7cc7f919906b7:0x98b73535d950fd10?sa=X&amp;ved=0ahUKEwjV_PrF0rPVAhXGZCYKHakDAk0Q9RcImgEwCw\">Montgomery Mall, besides Nordstrom</a>",
           "title2": "<span class=\"etl-icon icon-envelope mbr-iconfont mbr-iconfont-btn\"></span>e-mail",
-          "text2": "<a href=\"mailto://hi@beautyonrose.com\">hi@beautyonrose.com</a>",
+          "text2": "<a href=\"mailto:sample@sample.com\">contact@beautyonrose.com</a>",
           "title3": "<span class=\"etl-icon icon-phone mbr-iconfont mbr-iconfont-btn\"></span>phone",
-          "text3": "<a href=\"tel:+138 (095) 6526 538\">+(703 5555 555</a>"
+          "text3": "<a href=\"tel:+138 (095) 6526 538\">+703 (477) 4770</a>"
         },
         {
           "media": {
@@ -551,109 +410,141 @@
             "Theme"
           ],
           "_name": "footer2",
-          "_anchor": "footer2-j",
+          "_anchor": "footer2-9",
           "_params": {
-            "bgColor": "#212121",
+            "bgColor": "#757575",
             "bgColorRadio": true
           },
-          "copyright": "2017 All rights reserved Beauty on Rose. Developed by <a href=\"http://a-espinoza.com\" target=\"_blank\">Andres Espinoza</a>,",
-          "_customHTML": "<section class=\"mbr-section--bg-adapted mbr-section--relative mbr-section mbr-section--no-padding\" style=\"background-color: rgb(33, 33, 33);\">\n        \n        <footer class=\"footer\">\n        <div class=\"content-wide\">\n        <div class=\"container-wide container\">\n            <div class=\"row\">\n        \n                <div class=\"copyright nopadding\">\n                    <span class=\"mbr-editable-content\" code-editable-id=\"82\">2017 All rights reserved Beauty on Rose. Developed by <a href=\"http://a-espinoza.com\" target=\"_blank\">Andres Espinoza</a>,</span>\n                </div>\n            </div>\n\n        </div>\n    </div>\n    </footer>\n</section>",
-          "_PHPplaceholders": [],
-          "_JSplaceholders": [],
-          "_customCSS": "",
-          "_customTemplate": true
-        }
-      ]
-    },
-    "logos.html": {
-      "settings": {
-        "title": "Beauty on Rose Logo Proposal"
-      },
-      "components": [
+          "copyright": "Design and developed by <a href=\"http://a-espinoza.com\" target=\"_blank\">A.Espinoza</a>."
+        },
         {
           "alias": "spacem/components",
           "_tags": [
             "Theme"
           ],
-          "_name": "slider1",
-          "_styles": {
-            "H1": {
-              "font-family": "'Montserrat', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Montserrat:400,700",
-              "color": "#ffffff"
+          "_name": "menu1",
+          "_anchor": "menu1-o",
+          "_params": {
+            "bgColor": "#aa275a",
+            "fontSize": "0.75",
+            "fontName": {},
+            "fontColor": "#ffffff",
+            "fontHoverColor": "#222",
+            "transparent": false,
+            "sticky": true,
+            "logo": true
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/ttext-645x128.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "",
+              "title": "",
+              "linkInNewWindow": false
             }
           },
-          "_params": {
-            "autoplay": false,
-            "paddingTop": 3,
-            "paddingBottom": 3,
-            "timeout": "1",
-            "slides": [
-              {
-                "contentAlign": "left",
-                "active": false,
-                "image": "@PROJECT_PATH@/assets/images/header1-slide3.jpg",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=CluVGS25Kb0",
-                "overlay": true,
-                "showTitle": true,
-                "title": "welcome to your new LOGO!",
-                "showText": true,
-                "text": "In this short presentation, I would like you to follow a couple easy instructions :<br>Step 1: Open the website in a desktop or laptop!<br>Step 2: Smile in anticipation..<br>Step 3: Only click on the arrows once you are ready to advance to the next proposal!<br>Step 4: Enjoy!",
-                "showButtons": false,
-                "buttons": "<a data-app-btn=\"true\" href=\"http://mobirise.com\" class=\"btn btn-primary\" role=\"button\" data-toolbar=\"-mbrBtnMove\">SHOW ME my LOGOS :)</a>"
-              },
-              {
-                "contentAlign": "left",
-                "active": true,
-                "image": "@PROJECT_PATH@/assets/images/test-2000x1125.png",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=CluVGS25Kb0",
-                "overlay": false,
-                "showTitle": false,
-                "title": "Modern <em>Design</em>",
-                "showText": false,
-                "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos, blanditiis culpa. Beatae quos fuga qui perferendis quod, cumque vero expedita!",
-                "showButtons": false,
-                "buttons": "<a data-app-btn=\"true\" href=\"http://mobirise.com\" class=\"btn btn-primary\" role=\"button\">Purchase</a>"
-              },
-              {
-                "contentAlign": "left",
-                "active": false,
-                "image": "@PROJECT_PATH@/assets/images/header1-slide2.jpg",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=CluVGS25Kb0",
-                "overlay": true,
-                "showTitle": true,
-                "title": "Made for <em>You</em>",
-                "showText": true,
-                "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas iste, dicta aliquid asperiores natus tenetur expedita. Laborum a aliquid ratione.",
-                "showButtons": true,
-                "buttons": "<a data-app-btn=\"true\" href=\"http://mobirise.com\" class=\"btn btn-primary\" role=\"button\">Purchase</a>"
-              },
-              {
-                "contentAlign": "left",
-                "active": false,
-                "image": "@PROJECT_PATH@/assets/images/header1-slide4.jpg",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=CluVGS25Kb0",
-                "overlay": true,
-                "showTitle": true,
-                "title": "Website <em>Maker</em>",
-                "showText": true,
-                "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus optio a fuga aliquam ducimus, natus eligendi. Reprehenderit illum, et magnam.",
-                "showButtons": true,
-                "buttons": "<a data-app-btn=\"true\" href=\"http://mobirise.com\" class=\"btn btn-primary\" role=\"button\">Purchase</a>"
-              }
-            ],
-            "fullScreen": true,
-            "bgColor": "#fff",
-            "showBullets": true
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\">MOBIRISE</a>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#text1-6\">About US</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#accordion1-r\">Services</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"#top\">Schedule</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#contacts1-v\">Contact US</a></li>",
+          "_customHTML": "<section class=\"menu1\">\n\n    <nav class=\"navbar navbar-dropdown navbar-fixed-top\" style=\"background-image: url(@PROJECT_PATH@/assets/images/menulast.jpg); background-repeat: no-repeat;\">\n        <div class=\"container container-wide\">\n\n            <div class=\"mbr-table\">\n                <div class=\"mbr-table-cell logo\">\n\n                    <div class=\"navbar-brand\">\n                        <span class=\"navbar-logo\"><img src=\"@PROJECT_PATH@/assets/images/ttext-645x128.png\" alt=\"Mobirise\"></span>\n                        \n                    </div>\n\n                </div>\n                <div class=\"mbr-table-cell\">\n\n                    <ul class=\"nav-dropdown collapse pull-xs-right nav navbar-nav nav-list\" id=\"exCollapsingNavbar\"><li class=\"nav-item\"><a class=\"nav-link link mbr-editable-menu-item\" href=\"index.html#text1-6\" code-editable-id=\"160\">About US</a></li><li class=\"nav-item\"><a class=\"nav-link link mbr-editable-menu-item\" href=\"index.html#accordion1-r\" code-editable-id=\"161\">Services</a></li><li class=\"nav-item\"><a class=\"nav-link link mbr-editable-menu-item\" href=\"#top\" code-editable-id=\"162\">Schedule</a></li><li class=\"nav-item\"><a class=\"nav-link link mbr-editable-menu-item\" href=\"index.html#contacts1-v\" code-editable-id=\"163\">Contact US</a></li></ul>\n\n                    <button class=\"navbar-toggler pull-xs-right\" type=\"button\" data-toggle=\"collapse\" data-target=\"#exCollapsingNavbar\">\n                        <em></em>\n                    </button>\n\n                </div>\n            </div>\n\n        </div>\n    </nav>\n\n</section>",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [],
+          "_customCSS": ".hide-buttons .nav-btn {\n\tdisplay: none !important;\n}\n.navbar-caption {\n\tcolor: #ffffff;\n}\n.navbar-toggler {\n\tcolor: #ffffff;\n}\n.close-icon::before, .close-icon::after {\n\tbackground-color: #ffffff;\n}\n.link, .dropdown-item {\n\tcolor: #ffffff;\n}\n.link {\n\tfont-size: 0.75rem;\n}\n.dropdown-item, .nav-dropdown-sm .link {\n\tfont-size: 0.812rem;\n}\n.link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus {\n\tcolor: #222;\n}\n.link[aria-expanded=\"true\"], .dropdown-menu {\n\tbackground: #811d44;\n}\n.nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover {\n\tbackground: #9e2453!important;\n}\n.nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu {\n\tbackground: #aa275a;\n}\n\n\n\n\n.bg-color.transparent .link {\n\tcolor: #ffffff;\n\ttransition: none;\n}\n.navbar-toggler i, .navbar-toggler em, .navbar-toggler i:before, .navbar-toggler em:before, .navbar-toggler i:after, .navbar-toggler em:after {\n\tbackground: #ffffff;\n}\n.navbar-toggler[aria-expanded=\"true\"] i, .navbar-toggler[aria-expanded=\"true\"] em {\n\tbackground: transparent;\n}\n.bg-color.transparent.opened .link {\n\ttransition: color .2s ease-in-out;\n}\n.bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus {\n\tcolor: #222;\n}\n.link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"] {\n\tcolor: #222!important;\n}\n\n.navbar-dropdown .navbar-logo img {\n    max-width: 250px;\n    max-height: 150px;\n}\n@media (max-width: 768px) {\n   .navbar-dropdown .navbar-logo img {\n    max-width: 180px;\n    max-height: 50px;\n\t}\n}\n",
+          "_customTemplate": true
+        }
+      ]
+    },
+    "page1.html": {
+      "settings": {
+        "title": "Test",
+        "order": 1
+      },
+      "components": [
+        {
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff"
+            },
+            ".navbar-toggler": {
+              "color": "#ffffff"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#ffffff"
+            },
+            ".link, .dropdown-item": {
+              "color": "#ffffff"
+            },
+            ".link": {
+              "font-size": "0.75rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.812rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "#222"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#811d44"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#9e2453!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#aa275a"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#ffffff",
+              "transition": "none"
+            },
+            ".navbar-toggler i, .navbar-toggler em, .navbar-toggler i:before, .navbar-toggler em:before, .navbar-toggler i:after, .navbar-toggler em:after": {
+              "background": "#ffffff"
+            },
+            ".navbar-toggler[aria-expanded=\"true\"] i, .navbar-toggler[aria-expanded=\"true\"] em": {
+              "background": "transparent"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "#222"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#222!important"
+            }
           },
-          "_anchor": "slider1-h",
-          "articleLayout": false,
-          "arrowLeft": "@PROJECT_PATH@/assets/images/arrow-left.svg",
-          "arrowRight": "@PROJECT_PATH@/assets/images/arrow-right.svg"
+          "alias": "spacem/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "menu1",
+          "_anchor": "menu1-o",
+          "_params": {
+            "bgColor": "#aa275a",
+            "fontSize": "0.75",
+            "fontName": {},
+            "fontColor": "#ffffff",
+            "fontHoverColor": "#222",
+            "transparent": false,
+            "sticky": true,
+            "logo": true
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/ttext-645x128.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "",
+              "title": "",
+              "linkInNewWindow": false
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\">MOBIRISE</a>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#text1-6\">About US</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#accordion1-r\">Services</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"#top\">Schedule</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#contacts1-v\">Contact US</a></li>"
         }
       ]
     }
