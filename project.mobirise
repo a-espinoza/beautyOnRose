@@ -20,7 +20,7 @@
       "additionalSetColors": []
     },
     "versionFirst": "3.12.1",
-    "uniqCompNum": 37,
+    "uniqCompNum": 39,
     "versionPublish": "3.12.1",
     "favicon": "@PROJECT_PATH@/assets/images/1-128x109.png",
     "noImageResize": "",
@@ -175,8 +175,8 @@
             "showTitle": true,
             "showText": true,
             "tabsLeft": "3",
-            "tabsCenter": "1",
-            "tabsRight": "2",
+            "tabsCenter": "2",
+            "tabsRight": "1",
             "parallax": false,
             "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/1.jpg",
@@ -192,23 +192,23 @@
             "columns": "3"
           },
           "titleL1": "<a data-toggle=\"collapse\" data-parent=\"#accordionLeft\" href=\"#collapseOne\" aria-expanded=\"true\" aria-controls=\"collapseOne\" class=\"text-primary\">Hair Cocktail Menu:<span></span></a>",
-          "textL1": "<p>Shanghái Rose´ (Straight Hair Up) perfect for a professional environment or to add a sweet and simple style into a stressful morning routine.</p><p>Blushing Rose Mimosa (Straight Hair Up with Volume) sleek&amp; polish with a little bit of volume to beautifully frame your day while remaining gorgeous.</p><p>Rose´ Sangria (Smooth&amp; Tresses Boho Waves) Live it up with a sexy boho waves for days.  This awesome style feels soft and weightless.</p><p>Rose´Town Madness (Tons of Volume) Stand taller with tons of volume of loose curls. This style is filled with volume and air.</p><p>Rose´Beach (Enjoy the tropical party everyday with effortless beach waves)</p>",
-          "titleL2": "<a data-toggle=\"collapse\" data-parent=\"#accordionLeft\" href=\"#collapseTwo\" aria-expanded=\"false\" aria-controls=\"collapseTwo\" class=\"text-primary\">RoseUp (Bun Bun Rose)<br><span></span></a>",
-          "textL2": "<p>A mix of classic and elegant with a low messy bun, Alto bun or sweep hair into a high/low ponytail and let pieces fall out for the risk-takers.&nbsp;</p>",
-          "titleL3": "<a data-toggle=\"collapse\" data-parent=\"#accordionLeft\" href=\"#collapseThree\" aria-expanded=\"false\" aria-controls=\"collapseThree\" class=\"text-primary\">Cotton Candy (10 and under)<br><span></span></a>",
-          "textL3": "<p>Lorem ipsum dolor sit amet, consec tetur adipiscing and brane in bibendum</p>",
+          "textL1": "<p><b>Shanghái Rosé &nbsp;&nbsp;</b>(Straight Hair Up) perfect for a professional environment or to add a sweet and simple style into a stressful morning routine.</p><p><b>Blushing Rosé Mimosa</b>&nbsp; (Straight Hair Up with Volume) sleek &amp; polish with a little bit of volume to beautifully frame your day while remaining gorgeous.</p><p><b>Rosé Sangria</b>&nbsp; (Smooth&amp; Tresses Boho Waves) Live it up with a sexy boho waves for days.  This awesome style feels soft and weightless.</p><p><b>Rosé Town Madness</b>&nbsp; (Tons of Volume) Stand taller with tons of volume of loose curls. This style is filled with volume and air.</p><p><b>Rosé Beach</b>&nbsp; (Enjoy the tropical party everyday with effortless beach waves)</p><p><b>Rose Up</b>&nbsp; A mix of classic and elegant with a low messy bun, Alto bun or sweep hair into a high/low ponytail and let pieces fall out for the risk-takers.&nbsp;</p>",
+          "titleL2": "",
+          "textL2": "",
+          "titleL3": "<a data-toggle=\"collapse\" data-parent=\"#accordionLeft\" href=\"#collapseThree\" aria-expanded=\"false\" aria-controls=\"collapseThree\" class=\"text-primary\">Cotton Candy&nbsp;</a>",
+          "textL3": "<p>10 and under.</p>",
           "titleL4": "<a data-toggle=\"collapse\" data-parent=\"#accordionLeft\" href=\"#collapseFour\" aria-expanded=\"false\" aria-controls=\"collapseFour\">Collapsible Group Item #4<span></span></a>",
           "textL4": "<p>Lorem ipsum dolor sit amet, consec tetur adipiscing and brane in bibendum</p>",
           "titleL5": "<a data-toggle=\"collapse\" data-parent=\"#accordionLeft\" href=\"#collapseFive\" aria-expanded=\"false\" aria-controls=\"collapseFive\">Collapsible Group Item #5<span></span></a>",
           "textL5": "<p>Lorem ipsum dolor sit amet, consec tetur adipiscing and brane in bibendum</p>",
           "titleL6": "<a data-toggle=\"collapse\" data-parent=\"#accordionLeft\" href=\"#collapseSix\" aria-expanded=\"false\" aria-controls=\"collapseSix\">Collapsible Group Item #6<span></span></a>",
           "textL6": "<p>Lorem ipsum dolor sit amet, consec tetur adipiscing and brane in bibendum</p>",
-          "titleC1": "<a data-toggle=\"collapse\" data-parent=\"#accordionCenter\" href=\"#collapseOne\" aria-expanded=\"true\" aria-controls=\"collapseOne\" class=\"text-primary\">Seven Roses (color):<br><span></span></a>",
-          "textC1": "<p>Single Process  $70+</p><p>Roots Tough up $70+</p><p>Ombre  $135+</p><p>Toner   $40+</p><p>Full highlights 125+</p><p>Multi-dimensional  14+</p>",
-          "titleC2": "<a data-toggle=\"collapse\" data-parent=\"#accordionCenter\" href=\"#collapseTwo\" aria-expanded=\"false\" aria-controls=\"collapseTwo\">Collapsible Group Item #2<span></span></a>",
-          "textC2": "<p>Lorem ipsum dolor sit amet, consec tetur adipiscing and brane in bibendum</p>",
-          "titleC3": "<a data-toggle=\"collapse\" data-parent=\"#accordionCenter\" href=\"#collapseThree\" aria-expanded=\"false\" aria-controls=\"collapseThree\">Collapsible Group Item #3<span></span></a>",
-          "textC3": "<p>Lorem ipsum dolor sit amet, consec tetur adipiscing and brane in bibendum</p>",
+          "titleC1": "<a data-toggle=\"collapse\" data-parent=\"#accordionCenter\" href=\"#collapseOne\" aria-expanded=\"true\" aria-controls=\"collapseOne\" class=\"text-primary\">SEVEN ROSES (COLOR):<br><span></span></a>",
+          "textC1": "<p>Single Process  $70+</p><p><span style=\"line-height: 1.6em; background-color: inherit;\">Roots Tough up $70+</span></p><p>Ombre  $135+</p><p>Toner   $40+</p><p>Full highlights 125+</p><p>Multi-dimensional  14+</p>",
+          "titleC2": "<a data-toggle=\"collapse\" data-parent=\"#accordionCenter\" href=\"#collapseTwo\" aria-expanded=\"false\" aria-controls=\"collapseTwo\" class=\"text-primary\">Roses in Full Bloom<br><span></span></a>",
+          "textC2": "<p>Hair Mask &amp; hydrating treatment</p>",
+          "titleC3": "",
+          "textC3": "",
           "titleC4": "<a data-toggle=\"collapse\" data-parent=\"#accordionCenter\" href=\"#collapseFour\" aria-expanded=\"false\" aria-controls=\"collapseFour\">Collapsible Group Item #4<span></span></a>",
           "textC4": "<p>Lorem ipsum dolor sit amet, consec tetur adipiscing and brane in bibendum</p>",
           "titleC5": "<a data-toggle=\"collapse\" data-parent=\"#accordionCenter\" href=\"#collapseFive\" aria-expanded=\"false\" aria-controls=\"collapseFive\">Collapsible Group Item #5<span></span></a>",
@@ -217,16 +217,100 @@
           "textC6": "<p>Lorem ipsum dolor sit amet, consec tetur adipiscing and brane in bibendum</p>",
           "titleR1": "<a data-toggle=\"collapse\" data-parent=\"#accordionLeft\" href=\"#collapseOne\" aria-expanded=\"true\" aria-controls=\"collapseOne\" class=\"text-primary\">Rose Dreamers (Haircut):<br><span></span></a>",
           "textR1": "<p>Women   $60+</p><p>Men         $35+</p>",
-          "titleR2": "<a data-toggle=\"collapse\" data-parent=\"#accordionLeft\" href=\"#collapseTwo\" aria-expanded=\"false\" aria-controls=\"collapseTwo\">Roses In Full Bloom<br><span></span></a>",
+          "titleR2": "<a data-toggle=\"collapse\" data-parent=\"#accordionLeft\" href=\"#collapseTwo\" aria-expanded=\"false\" aria-controls=\"collapseTwo\" class=\"text-primary\">Roses In Full Bloom<br><span></span></a>",
           "textR2": "<p>Hair Mask &amp; hydrating treatment</p>",
-          "titleR3": "<a data-toggle=\"collapse\" data-parent=\"#accordionLeft\" href=\"#collapseThree\" aria-expanded=\"false\" aria-controls=\"collapseThree\">Collapsible Group Item #3<span></span></a>",
-          "textR3": "<p>Lorem ipsum dolor sit amet, consec tetur adipiscing and brane in bibendum</p>",
+          "titleR3": "<a data-toggle=\"collapse\" data-parent=\"#accordionLeft\" href=\"#collapseThree\" aria-expanded=\"false\" aria-controls=\"collapseThree\">SEVEN ROSES (COLOR):<br><span></span></a>",
+          "textR3": "<p>Single Process $70+</p><p><br></p><p>Roots Tough up $70+</p><p><br></p><p>Ombre $135+</p><p><br></p><p>Toner $40+</p><p><br></p><p>Full highlights 125+</p><p><br></p><p>Multi-dimensional 14+</p>",
           "titleR4": "<a data-toggle=\"collapse\" data-parent=\"#accordionLeft\" href=\"#collapseFour\" aria-expanded=\"false\" aria-controls=\"collapseFour\">Collapsible Group Item #4<span></span></a>",
           "textR4": "<p>Lorem ipsum dolor sit amet, consec tetur adipiscing and brane in bibendum</p>",
           "titleR5": "<a data-toggle=\"collapse\" data-parent=\"#accordionLeft\" href=\"#collapseFive\" aria-expanded=\"false\" aria-controls=\"collapseFive\">Collapsible Group Item #5<span></span></a>",
           "textR5": "<p>Lorem ipsum dolor sit amet, consec tetur adipiscing and brane in bibendum</p>",
           "titleR6": "<a data-toggle=\"collapse\" data-parent=\"#accordionLeft\" href=\"#collapseSix\" aria-expanded=\"false\" aria-controls=\"collapseSix\">Collapsible Group Item #6<span></span></a>",
           "textR6": "<p>Lorem ipsum dolor sit amet, consec tetur adipiscing and brane in bibendum</p>"
+        },
+        {
+          "alias": "spacem/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "gallery2",
+          "_params": {
+            "paddingTop": "1",
+            "paddingBottom": "1",
+            "images": [
+              {
+                "tags": "Awesome",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/4-2000x1334-800x533.jpg",
+                "image": "@PROJECT_PATH@/assets/images/4-2000x1334.jpg",
+                "caption": "Shanghái Rosé",
+                "active": false
+              },
+              {
+                "tags": "Responsive",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/5-2000x1334-800x533.jpg",
+                "image": "@PROJECT_PATH@/assets/images/5-2000x1334.jpg",
+                "caption": "Blushing Rosé Mimosa",
+                "active": false
+              },
+              {
+                "tags": "Creative",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/3-2000x1334-800x533.jpg",
+                "image": "@PROJECT_PATH@/assets/images/3-2000x1334.jpg",
+                "caption": "Rosé Sangria",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/2-2000x1334-800x533.jpg",
+                "image": "@PROJECT_PATH@/assets/images/2-2000x1334.jpg",
+                "caption": "Rosé Town Madness<br>",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/1-2000x1334-800x533.jpg",
+                "image": "@PROJECT_PATH@/assets/images/1-2000x1334.jpg",
+                "caption": "Rose Up",
+                "active": true
+              },
+              {
+                "tags": "Animated",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/6-2000x1334-800x533.jpg",
+                "image": "@PROJECT_PATH@/assets/images/6-2000x1334.jpg",
+                "caption": "Rosé Beach",
+                "active": false
+              }
+            ],
+            "spacing": "1",
+            "showText": true,
+            "filter": false,
+            "bgColor": "#FFFFFF",
+            "filterBgColor": false,
+            "showBullets": true
+          },
+          "_anchor": "gallery2-12",
+          "articleLayout": false,
+          "allItem": "All",
+          "arrowLeft": "@PROJECT_PATH@/assets/images/arrow-left.svg",
+          "arrowRight": "@PROJECT_PATH@/assets/images/arrow-right.svg"
         },
         {
           "_styles": {
@@ -333,7 +417,7 @@
           },
           "buttons": "<a data-app-btn=\"true\" href=\"http://mobirise.com\" class=\"btn btn-black\" type=\"submit\" role=\"button\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove\">contact us</a>",
           "title1": "<span class=\"etl-icon icon-map-pin mbr-iconfont mbr-iconfont-btn\"></span>address",
-          "text1": "<a href=\"https://www.google.com/maps/dir/''/nordstrom+montgomery+mall/data=!4m5!4m4!1m0!1m2!1m1!1s0x89b7cc7f919906b7:0x98b73535d950fd10?sa=X&amp;ved=0ahUKEwjV_PrF0rPVAhXGZCYKHakDAk0Q9RcImgEwCw\">Montgomery Mall, besides Nordstrom</a>",
+          "text1": "<a href=\"https://www.google.com/maps/dir/''/nordstrom+montgomery+mall/data=!4m5!4m4!1m0!1m2!1m1!1s0x89b7cc7f919906b7:0x98b73535d950fd10?sa=X&amp;ved=0ahUKEwjV_PrF0rPVAhXGZCYKHakDAk0Q9RcImgEwCw\">Montgomery Mall, next to Nordstrom</a>",
           "title2": "<span class=\"etl-icon icon-envelope mbr-iconfont mbr-iconfont-btn\"></span>e-mail",
           "text2": "<a href=\"mailto:sample@sample.com\">contact@beautyonrose.com</a>",
           "title3": "<span class=\"etl-icon icon-phone mbr-iconfont mbr-iconfont-btn\"></span>phone",
@@ -423,16 +507,15 @@
             "Theme"
           ],
           "_name": "menu1",
-          "_anchor": "menu1-o",
           "_params": {
+            "logo": true,
+            "sticky": true,
+            "transparent": false,
             "bgColor": "#aa275a",
             "fontSize": "0.75",
             "fontName": {},
             "fontColor": "#ffffff",
-            "fontHoverColor": "#222",
-            "transparent": false,
-            "sticky": true,
-            "logo": true
+            "fontHoverColor": "#222"
           },
           "logo": {
             "image": {
@@ -447,11 +530,12 @@
           },
           "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\">MOBIRISE</a>",
           "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#text1-6\">About US</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#accordion1-r\">Services</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"#top\">Schedule</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#contacts1-v\">Contact US</a></li>",
-          "_customHTML": "<section class=\"menu1\">\n\n    <nav class=\"navbar navbar-dropdown navbar-fixed-top\" style=\"background-image: url(@PROJECT_PATH@/assets/images/menulast.jpg); background-repeat: no-repeat;\">\n        <div class=\"container container-wide\">\n\n            <div class=\"mbr-table\">\n                <div class=\"mbr-table-cell logo\">\n\n                    <div class=\"navbar-brand\">\n                        <span class=\"navbar-logo\"><img src=\"@PROJECT_PATH@/assets/images/ttext-645x128.png\" alt=\"Mobirise\"></span>\n                        \n                    </div>\n\n                </div>\n                <div class=\"mbr-table-cell\">\n\n                    <ul class=\"nav-dropdown collapse pull-xs-right nav navbar-nav nav-list\" id=\"exCollapsingNavbar\"><li class=\"nav-item\"><a class=\"nav-link link mbr-editable-menu-item\" href=\"index.html#text1-6\" code-editable-id=\"160\">About US</a></li><li class=\"nav-item\"><a class=\"nav-link link mbr-editable-menu-item\" href=\"index.html#accordion1-r\" code-editable-id=\"161\">Services</a></li><li class=\"nav-item\"><a class=\"nav-link link mbr-editable-menu-item\" href=\"#top\" code-editable-id=\"162\">Schedule</a></li><li class=\"nav-item\"><a class=\"nav-link link mbr-editable-menu-item\" href=\"index.html#contacts1-v\" code-editable-id=\"163\">Contact US</a></li></ul>\n\n                    <button class=\"navbar-toggler pull-xs-right\" type=\"button\" data-toggle=\"collapse\" data-target=\"#exCollapsingNavbar\">\n                        <em></em>\n                    </button>\n\n                </div>\n            </div>\n\n        </div>\n    </nav>\n\n</section>",
+          "_customHTML": "<section class=\"menu1\">\n\n    <nav class=\"navbar navbar-dropdown navbar-fixed-top\" style=\"background-image: url(@PROJECT_PATH@/assets/images/menulast.jpg); background-repeat: no-repeat;\">\n        <div class=\"container container-wide\">\n\n            <div class=\"mbr-table\">\n                <div class=\"mbr-table-cell logo\">\n\n                    <div class=\"navbar-brand\">\n                        <span class=\"navbar-logo\"><img src=\"@PROJECT_PATH@/assets/images/ttext-645x128.png\" alt=\"Mobirise\"></span>\n                        \n                    </div>\n\n                </div>\n                <div class=\"mbr-table-cell\">\n\n                    <ul class=\"nav-dropdown collapse pull-xs-right nav navbar-nav nav-list\" id=\"exCollapsingNavbar\"><li class=\"nav-item\"><a class=\"nav-link link mbr-editable-menu-item\" href=\"index.html#text1-6\" code-editable-id=\"164\">About US</a></li><li class=\"nav-item\"><a class=\"nav-link link mbr-editable-menu-item\" href=\"index.html#accordion1-r\" code-editable-id=\"165\">Services</a></li><li class=\"nav-item\"><a class=\"nav-link link mbr-editable-menu-item\" href=\"#top\" code-editable-id=\"166\">Schedule</a></li><li class=\"nav-item\"><a class=\"nav-link link mbr-editable-menu-item\" href=\"index.html#contacts1-v\" code-editable-id=\"167\">Contact US</a></li></ul>\n\n                    <button class=\"navbar-toggler pull-xs-right\" type=\"button\" data-toggle=\"collapse\" data-target=\"#exCollapsingNavbar\">\n                        <em></em>\n                    </button>\n\n                </div>\n            </div>\n\n        </div>\n    </nav>\n\n</section>",
           "_PHPplaceholders": [],
           "_JSplaceholders": [],
           "_customCSS": ".hide-buttons .nav-btn {\n\tdisplay: none !important;\n}\n.navbar-caption {\n\tcolor: #ffffff;\n}\n.navbar-toggler {\n\tcolor: #ffffff;\n}\n.close-icon::before, .close-icon::after {\n\tbackground-color: #ffffff;\n}\n.link, .dropdown-item {\n\tcolor: #ffffff;\n}\n.link {\n\tfont-size: 0.75rem;\n}\n.dropdown-item, .nav-dropdown-sm .link {\n\tfont-size: 0.812rem;\n}\n.link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus {\n\tcolor: #222;\n}\n.link[aria-expanded=\"true\"], .dropdown-menu {\n\tbackground: #811d44;\n}\n.nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover {\n\tbackground: #9e2453!important;\n}\n.nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu {\n\tbackground: #aa275a;\n}\n\n\n\n\n.bg-color.transparent .link {\n\tcolor: #ffffff;\n\ttransition: none;\n}\n.navbar-toggler i, .navbar-toggler em, .navbar-toggler i:before, .navbar-toggler em:before, .navbar-toggler i:after, .navbar-toggler em:after {\n\tbackground: #ffffff;\n}\n.navbar-toggler[aria-expanded=\"true\"] i, .navbar-toggler[aria-expanded=\"true\"] em {\n\tbackground: transparent;\n}\n.bg-color.transparent.opened .link {\n\ttransition: color .2s ease-in-out;\n}\n.bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus {\n\tcolor: #222;\n}\n.link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"] {\n\tcolor: #222!important;\n}\n\n.navbar-dropdown .navbar-logo img {\n    max-width: 250px;\n    max-height: 150px;\n}\n@media (max-width: 768px) {\n   .navbar-dropdown .navbar-logo img {\n    max-width: 180px;\n    max-height: 50px;\n\t}\n}\n",
-          "_customTemplate": true
+          "_customTemplate": true,
+          "_anchor": "menu1-o"
         }
       ]
     },
